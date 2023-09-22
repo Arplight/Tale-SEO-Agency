@@ -1,0 +1,39 @@
+.splide__slide {
+  -webkit-tap-highlight-color: transparent;
+}
+.splide__slide:focus {
+  outline: 0;
+}
+.splide__slide:focus-visible {
+  /* IE does not support outline-offset */
+}
+@supports (outline-offset: -3px) {
+  .splide__slide:focus-visible {
+    outline: #0bf 3px solid;
+    outline-offset: -3px;
+  }
+}
+@media screen and (-ms-high-contrast: none) {
+  .splide__slide:focus-visible {
+    border: #0bf 3px solid;
+  }
+}
+.splide.is-focus-in .splide__slide:focus {
+  /* IE does not support outline-offset */
+}
+@supports (outline-offset: -3px) {
+  .splide.is-focus-in .splide__slide:focus {
+    outline: #0bf 3px solid;
+    outline-offset: -3px;
+  }
+}
+@media screen and (-ms-high-contrast: none) {
+  .splide.is-focus-in .splide__slide:focus {
+    border: #0bf 3px solid;
+  }
+}
+@media screen and (-ms-high-contrast: none) {
+  .splide.is-focus-in .splide__track > .splide__list > .splide__slide:focus {
+    border-color: #0bf;
+  }
+}/*# sourceMappingURL=slide.css.map */

@@ -1,0 +1,45 @@
+.splide__arrow {
+  background: #ccc;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 0.7;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 2em;
+  width: 2em;
+}
+.splide__arrow svg {
+  fill: #000;
+  height: 1.2em;
+  width: 1.2em;
+}
+.splide__arrow:hover:not(:disabled) {
+  opacity: 0.9;
+}
+.splide__arrow:disabled {
+  opacity: 0.3;
+}
+.splide__arrow:focus-visible {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}
+.splide__arrow--prev {
+  left: 1em;
+}
+.splide__arrow--prev svg {
+  transform: scaleX(-1);
+}
+.splide__arrow--next {
+  right: 1em;
+}
+.splide.is-focus-in .splide__arrow:focus {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}/*# sourceMappingURL=arrow.css.map */

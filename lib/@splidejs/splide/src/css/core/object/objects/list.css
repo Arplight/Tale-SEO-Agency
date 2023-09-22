@@ -1,0 +1,10 @@
+.splide__list {
+  backface-visibility: hidden;
+  display: flex;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.splide.is-initialized:not(.is-active) .splide__list {
+  display: block;
+}/*# sourceMappingURL=list.css.map */

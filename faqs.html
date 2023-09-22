@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Meta tags & title-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Most Frequently Asked Questions Here" />
+    <meta
+      property="og:description"
+      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore."
+    />
+    <meta property="og:type" content="website" />
+    <title>Tale SEO Agency - FAQS</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!--CSS libraries-->
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="./lib/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="./lib/slick-carousel/slick/slick-theme.css" />
+    <!--CSS main styling sheet-->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body data-page="faqs">
+    <!--Social navbar-->
+    <nav class="social container-fluid d-none d-md-flex pending">
+      <div class="container">
+        <div class="contact">
+          <div class="sub">
+            <a class="link" href="#"
+              ><span> <i class="fa-solid fa-phone navIcon"></i></span
+              ><span> +000 1234 5678</span></a
+            >
+          </div>
+          <div class="sub">
+            <a class="link" href="#"
+              ><span> <i class="fa-regular fa-envelope navIcon"></i></span
+              ><span> infocompany@email.com</span></a
+            >
+          </div>
+          <div class="sub">
+            <a class="link" href="#"
+              ><span><i class="fa-solid fa-location-dot navIcon"></i></span
+              ><span>St. London 54th Bull </span></a
+            >
+          </div>
+        </div>
+        <div class="social-icons">
+          <a class="link" href="#"
+            ><i class="fa-brands fa-facebook navIcon"></i></a
+          ><a class="link" href="#"
+            ><i class="fa-brands fa-twitter navIcon"></i> </a
+          ><a class="link" href="#"
+            ><i class="fa-brands fa-linkedin navIcon"></i></a
+          ><a class="link" href="#"
+            ><i class="fa-brands fa-google-plus-g navIcon"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!--Sticky navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg pending" id="sticky-nav">
+      <div class="container-fluid">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./images/logo.png" alt="" srcset=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            onclick="navToggle(this)"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="nav-icon"
+              ><span class="slice-1"> </span><span class="slice-2"> </span
+              ><span class="slice-3"> </span
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link sec" href="./index.html" aria-current="page"
+                  >HOME
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="./index.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="./index.html"
+                  >PROJECTS
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES<i class="fa-solid fa-angles-down"></i
+                ></a>
+                <ul
+                  class="dropdown-menu animate__animated animate__fadeInUp"
+                  id="menu"
+                >
+                  <li>
+                    <a class="dropdown-item" href="./about.html">ABOUT US</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">FAQS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="./index.html">INFOS </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="./index.html">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Loading page-->
+    <div class="backGround" id="bg">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+    <div class="main-wrapper pending">
+      <!--Faqs-->
+      <div class="faqs-intro container-fluid m-bottom">
+        <div class="banner-left">
+          <img src="./images/banner-left.png" alt="" srcset="" />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-8 info">
+              <div class="container-wrapper">
+                <article>
+                  <h4>
+                    <span class="header-primary">SEO DIGITAL AGENCY</span>
+                  </h4>
+                  <h1 id="test">
+                    <span class="normal"> &nbsp; Most</span
+                    ><span class="normal"> Frequently Asked </span
+                    ><span class="header-primary"> Questions</span
+                    ><span class="normal"> Here</span
+                    ><span class="header-primary"> ?</span>
+                  </h1>
+                </article>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 mt-4 mt-lg-0 image">
+              <img src="./images/faqs-image.jpg" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Faqs steps-->
+      <div class="container-fluid m-bottom faqs-steps">
+        <div class="container">
+          <div class="info">
+            <h2 class="light">Our 4 Steps To Success & Happy Clients</h2>
+          </div>
+          <div class="f-steps">
+            <div class="step">
+              <div class="image">
+                <img src="./images/services-01.jpg" alt="img" srcset="" />
+              </div>
+              <div class="title">
+                <h3>Project Introduction</h3>
+              </div>
+            </div>
+            <div class="step">
+              <div class="image">
+                <img src="./images/services-02.jpg" alt="img" srcset="" />
+              </div>
+              <div class="title">
+                <h3>Work Development</h3>
+              </div>
+            </div>
+            <div class="step">
+              <div class="image">
+                <img src="./images/services-03.jpg" alt="img" srcset="" />
+              </div>
+              <div class="title">
+                <h3>Data Analysis</h3>
+              </div>
+            </div>
+            <div class="step">
+              <div class="image">
+                <img src="./images/services-04.jpg" alt="img" srcset="" />
+              </div>
+              <div class="title">
+                <h3>Project Finishing</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Faqs-->
+      <div class="container-fluid faqs m-bottom">
+        <div class="banner-left">
+          <img src="./images/contact-left.jpg" alt="" srcset="" />
+        </div>
+        <div class="banner-right">
+          <img src="./images/contact-left.jpg" alt="" srcset="" />
+        </div>
+        <div class="container">
+          <div class="container-wrapper info">
+            <article>
+              <h2 class="left">
+                <span class="normal"> Most</span
+                ><span class="header-primary"> Frequently </span
+                ><span class="normal"> Asked </span
+                ><span class="header-secondary">Questions</span
+                ><span class="normal"> ?</span>
+              </h2>
+              <p class="light">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                doers.
+              </p>
+            </article>
+          </div>
+          <div class="row g-5">
+            <div class="col-12 col-lg-6">
+              <div class="questions">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Lorem ipsum dolor sit amet?
+                      </button>
+                    </h3>
+                    <div
+                      class="accordion-collapse collapse show"
+                      id="collapseOne"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p class="light">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Possimus temporibus fugiat obcaecati adipisci
+                          quidem commodi eius.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        Lorem ipsum dolor sit amet?
+                      </button>
+                    </h3>
+                    <div
+                      class="accordion-collapse collapse"
+                      id="collapseTwo"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p class="light">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Possimus temporibus fugiat obcaecati adipisci
+                          quidem commodi eius.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Lorem ipsum dolor sit amet?
+                      </button>
+                    </h3>
+                    <div
+                      class="accordion-collapse collapse"
+                      id="collapseThree"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p class="light">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Possimus temporibus fugiat obcaecati adipisci
+                          quidem commodi eius.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFour">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        Lorem ipsum dolor sit amet?
+                      </button>
+                    </h3>
+                    <div
+                      class="accordion-collapse collapse"
+                      id="collapseFour"
+                      aria-labelledby="headingFour"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">
+                        <p class="light">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Possimus temporibus fugiat obcaecati adipisci
+                          quidem commodi eius.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="quote">
+                <form action="" method="POST">
+                  <h2 class="left">
+                    <span class="normal"> Get A </span
+                    ><span class="header-primary"> Free Quote</span
+                    ><span class="normal"> Now</span>
+                  </h2>
+                  <fieldset>
+                    <input
+                      type="email"
+                      name="mail"
+                      id="mail"
+                      placeholder="Your E-mail..."
+                      required
+                      autocomplete="on"
+                    />
+                    <input
+                      type="url"
+                      name="website"
+                      id="website"
+                      placeholder="Website URL..."
+                      required
+                      autocomplete="on"
+                    />
+                    <input
+                      type="number"
+                      name="numb"
+                      id="numb"
+                      placeholder="Phone Number"
+                      required
+                      autocomplete="on"
+                    />
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Full Name..."
+                      required
+                    />
+                    <button class="button-form" type="submit">
+                      Get Your Free Quote
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contact-us-->
+      <div class="container-fluid contact-us">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-12 col-lg-8 info">
+              <h2 class="light">
+                Are You Ready To Work & Develop With Us ?<br />Don't Hesitate &
+                Contact Us !
+              </h2>
+            </div>
+            <div class="col-12 col-lg-4 button">
+              <a class="button-light" href="#">Contact Us Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Back to top button-->
+      <button type="button" class="top-arrow" id="top-btn" onclick="toTop()">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </div>
+    <!--Footer-->
+    <footer class="pending">
+      <div class="container-fluid">
+        <div class="container">
+          <p class="dark">
+            Copyright © 2036 Tale SEO Agency. All rights reserved.
+          </p>
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/muhammad96osama/"
+            target="_blank"
+          >
+            Developed by Muhammad Osama</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!--Script sources-->
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script src="./lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/waypoints/lib/noframework.waypoints.min.js"></script>
+    <script src="./lib/wowjs/dist/wow.min.js"></script>
+    <script src="./lib/slick-carousel/slick/slick.min.js"></script>
+    <!--Main script source-->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

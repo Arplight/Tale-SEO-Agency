@@ -1,0 +1,11 @@
+.splide__toggle {
+  cursor: pointer;
+}
+.splide__toggle:focus-visible {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}
+.splide.is-focus-in .splide__toggle:focus {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}/*# sourceMappingURL=toggle.css.map */

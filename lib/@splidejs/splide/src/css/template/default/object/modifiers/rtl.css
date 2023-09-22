@@ -1,0 +1,14 @@
+.splide__arrows--rtl .splide__arrow--prev {
+  left: auto;
+  right: 1em;
+}
+.splide__arrows--rtl .splide__arrow--prev svg {
+  transform: scaleX(1);
+}
+.splide__arrows--rtl .splide__arrow--next {
+  left: 1em;
+  right: auto;
+}
+.splide__arrows--rtl .splide__arrow--next svg {
+  transform: scaleX(-1);
+}/*# sourceMappingURL=rtl.css.map */

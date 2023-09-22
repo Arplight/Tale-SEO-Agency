@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Meta tags & title-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="SEO DIGITAL AGENCY" />
+    <meta
+      property="og:description"
+      content="Tale is the best SEO agency website template using Bootstrap v5.2.2 CSS for your company. It is a free download provided by TemplateMo. There are 3 HTML pages, Home, About, and FAQ."
+    />
+    <meta property="og:type" content="website" />
+    <title>Tale SEO Agency</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!--CSS libraries-->
+    <link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="./lib/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="./lib/slick-carousel/slick/slick-theme.css" />
+    <!--CSS main styling sheet-->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body data-page="index">
+    <!--Social navbar-->
+    <nav class="social container-fluid d-none d-md-flex pending">
+      <div class="container">
+        <div class="contact">
+          <div class="sub">
+            <a class="link" href="#"
+              ><span> <i class="fa-solid fa-phone navIcon"></i></span
+              ><span> +000 1234 5678</span></a
+            >
+          </div>
+          <div class="sub">
+            <a class="link" href="#"
+              ><span> <i class="fa-regular fa-envelope navIcon"></i></span
+              ><span> infocompany@email.com</span></a
+            >
+          </div>
+          <div class="sub">
+            <a class="link" href="#"
+              ><span><i class="fa-solid fa-location-dot navIcon"></i></span
+              ><span>St. London 54th Bull </span></a
+            >
+          </div>
+        </div>
+        <div class="social-icons">
+          <a class="link" href="#"
+            ><i class="fa-brands fa-facebook navIcon"></i></a
+          ><a class="link" href="#"
+            ><i class="fa-brands fa-twitter navIcon"></i> </a
+          ><a class="link" href="#"
+            ><i class="fa-brands fa-linkedin navIcon"></i></a
+          ><a class="link" href="#"
+            ><i class="fa-brands fa-google-plus-g navIcon"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!--Sticky navbar-->
+    <nav class="navbar sticky-top navbar-expand-lg pending" id="sticky-nav">
+      <div class="container-fluid">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./images/logo.png" alt="" srcset=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            onclick="navToggle(this)"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="nav-icon"
+              ><span class="slice-1"> </span><span class="slice-2"> </span
+              ><span class="slice-3"> </span
+            ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link sec" href="#intro" aria-current="page"
+                  >HOME
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="#projects">PROJECTS </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PAGES<i class="fa-solid fa-angles-down"></i
+                ></a>
+                <ul
+                  class="dropdown-menu animate__animated animate__fadeInUp"
+                  id="menu"
+                >
+                  <li>
+                    <a class="dropdown-item" href="./about.html">ABOUT US</a>
+                  </li>
+                  <li><a class="dropdown-item" href="./faqs.html">FAQS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="#about">INFOS </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link section sec" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Loading page-->
+    <div class="backGround" id="bg">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+    <div class="main-wrapper pending">
+      <!--Intro-->
+      <div class="intro container-fluid m-bottom" id="intro">
+        <div class="banner-left">
+          <img src="./images/banner-left.png" alt="" srcset="" />
+        </div>
+        <div class="banner-right">
+          <img src="./images/banner-right.png" alt="" srcset="" />
+        </div>
+        <div class="container">
+          <div class="container-wrapper">
+            <article>
+              <h4><span class="header-primary"> SEO DIGITAL AGENCY</span></h4>
+              <h1 id="test">
+                <span class="normal"> &nbsp; Dive</span
+                ><span class="header-primary"> Into The SEO</span
+                ><span class="normal"> World</span
+                ><span class="header-secondary">With Tale</span>
+              </h1>
+              <p class="light">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, nam. Deleniti corrupti quae repellendus fuga.
+                Exercitationem, molestias doloremque nihil doloribus optio nobis
+                quaerat minima, error hic sequi reprehenderit, id accusamus?
+              </p>
+            </article>
+            <div class="buttons">
+              <a class="button-primary" href="#">Discover More</a
+              ><a class="button-secondary" href="#">Check our FAQs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Services-->
+      <div class="container-fluid services m-bottom" id="services">
+        <div class="banner-left">
+          <img src="./images/services-left.jpg" alt="" srcset="" />
+        </div>
+        <div class="banner-right">
+          <img src="./images/contact-left.jpg" alt="" srcset="" />
+        </div>
+        <div class="container">
+          <div class="container-wrapper">
+            <h2 class="left">
+              <span class="normal">We Provide</span
+              ><span class="header-primary"> Different Services</span
+              ><span class="normal"> & </span
+              ><span class="header-secondary">Features </span
+              ><span class="normal">For Your Agency</span>
+            </h2>
+            <p class="light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers
+              eiusmod.
+            </p>
+            <div class="cards">
+              <div class="row g-4">
+                <div class="col-12 col-sm-6">
+                  <div class="sub p-4">
+                    <div class="icon">
+                      <img
+                        src="./images/services-01.jpg"
+                        alt="services-image"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="title">
+                      <h3>Discover More on Latest SEO Trends</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="sub p-4">
+                    <div class="icon">
+                      <img
+                        src="./images/services-02.jpg"
+                        alt="services-image"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="title">
+                      <h3>Real-Time Big Data Analysis</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="sub p-4">
+                    <div class="icon">
+                      <img
+                        src="./images/services-03.jpg"
+                        alt="services-image"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="title">
+                      <h3>Precise Data Analysis &amp; Prediction</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="sub p-4">
+                    <div class="icon">
+                      <img
+                        src="./images/services-04.jpg"
+                        alt="services-image"
+                        srcset=""
+                      />
+                    </div>
+                    <div class="title">
+                      <h3>SEO Marketing &amp; Social Media</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Projects carousel-->
+      <div class="projects container-fluid m-bottom" id="projects">
+        <div class="container">
+          <div class="container-wrapper">
+            <h2 class="left">
+              <span class="normal">Discover Our</span
+              ><span class="header-primary"> Work</span
+              ><span class="normal"> & </span
+              ><span class="header-secondary">Projects</span>
+            </h2>
+            <p class="light">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers
+              eiusmod.
+            </p>
+          </div>
+        </div>
+        <section id="projects-slider">
+          <div class="project">
+            <div class="image">
+              <img src="./images/projects-01.jpg" alt="" srcset="" />
+            </div>
+            <div class="title">
+              <h3>project title</h3>
+              <a href="#"> <i class="fa-solid fa-link"></i> </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="image">
+              <img src="./images/projects-02.jpg" alt="" srcset="" />
+            </div>
+            <div class="title">
+              <h3>project title</h3>
+              <a href="#"> <i class="fa-solid fa-link"></i> </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="image">
+              <img src="./images/projects-03.jpg" alt="" srcset="" />
+            </div>
+            <div class="title">
+              <h3>project title</h3>
+              <a href="#"> <i class="fa-solid fa-link"></i> </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="image">
+              <img src="./images/projects-04.jpg" alt="" srcset="" />
+            </div>
+            <div class="title">
+              <h3>project title</h3>
+              <a href="#"> <i class="fa-solid fa-link"></i> </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="image">
+              <img src="./images/projects-02.jpg" alt="" srcset="" />
+            </div>
+            <div class="title">
+              <h3>project title</h3>
+              <a href="#"> <i class="fa-solid fa-link"></i> </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--About-->
+      <div class="about container-fluid m-bottom" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="background col-12 col-lg-6">
+              <img src="./images/left-infos.jpg" alt="" srcset="" />
+            </div>
+            <div class="info col-12 col-lg-6">
+              <h2 class="left">
+                <span class="normal">More</span
+                ><span class="header-primary"> About Us</span
+                ><span class="normal"> & What </span
+                ><span class="header-secondary">We Offer</span>
+              </h2>
+              <p class="light">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quisquam culpa necessitatibus eaque quasi earum quo modi
+                molestiae.
+              </p>
+              <div class="progs">
+                <div class="prog-bar">
+                  <div class="prog-data">
+                    <p>Marketing</p>
+                    <label id="label-1" for="prog-1"></label>
+                  </div>
+                  <progress id="prog-1" value="0" max="100"></progress>
+                </div>
+                <div class="prog-bar">
+                  <div class="prog-data">
+                    <p>Digital Media</p>
+                    <label id="label-2" for="prog-2"></label>
+                  </div>
+                  <progress id="prog-2" value="0" max="100"></progress>
+                </div>
+                <div class="prog-bar">
+                  <div class="prog-data">
+                    <p>Social Media Managing</p>
+                    <label id="label-3" for="prog-3"></label>
+                  </div>
+                  <progress id="prog-3" value="0" max="100"></progress>
+                </div>
+              </div>
+              <p class="light">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quisquam culpa necessitatibus eaque quasi earum quo modi
+                molestiae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Contact-->
+      <div class="contact-form container-fluid" id="contact">
+        <div class="banner-left">
+          <img src="./images/contact-left.jpg" alt="" srcset="" />
+        </div>
+        <div class="banner-right">
+          <img src="./images/contact-left.jpg" alt="" srcset="" />
+        </div>
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-12 col-lg-4">
+              <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d37519.00292842516!2d-80.118781!3d25.952478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1694841525731!5m2!1sen!2sth"
+                  width="100%"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="form">
+                <form action="" method="POST">
+                  <h2 class="left">
+                    <span class="header-primary"> Contact Us</span
+                    ><span class="normal"> & Get In </span
+                    ><span class="header-secondary">Touch</span>
+                  </h2>
+                  <fieldset class="row">
+                    <div class="col-lg-6">
+                      <input
+                        type="text"
+                        name="fname"
+                        id="fname"
+                        placeholder="Your Name..."
+                        required
+                        autocomplete="on"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <input
+                        type="text"
+                        name="sname"
+                        id="sname"
+                        placeholder="Your Surname..."
+                        required
+                        autocomplete="on"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <input
+                        type="email"
+                        name="mail"
+                        id="mail"
+                        placeholder="Your E-mail"
+                        required
+                        autocomplete="on"
+                      />
+                    </div>
+                    <div class="col-lg-6">
+                      <input
+                        type="text"
+                        name="sub"
+                        id="sub"
+                        placeholder="Subject..."
+                        required
+                      />
+                    </div>
+                  </fieldset>
+                  <fieldset>
+                    <textarea
+                      class="full-width"
+                      name="msg"
+                      id="msg"
+                      cols="30"
+                      placeholder="Your Message"
+                      maxlength="300"
+                    ></textarea>
+                    <button class="button-form" type="submit">
+                      Send Message Now
+                    </button>
+                  </fieldset>
+                </form>
+                <div class="info row g-2">
+                  <div class="col-md-4">
+                    <div class="div p-3 sub">
+                      <i class="fa-solid fa-phone contactIcon"></i
+                      ><a href="#"> 010-020-0340</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="div p-3 sub">
+                      <i class="fa-regular fa-envelope contactIcon"></i
+                      ><a href="#"> info@company.com</a>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="div p-3 sub">
+                      <i class="fa-solid fa-location-dot contactIcon"></i
+                      ><a href="#">
+                        Sunny Isles Beach, FL 33160, United States</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Back to top button-->
+      <button type="button" class="top-arrow" id="top-btn" onclick="toTop()">
+        <i class="fa-solid fa-chevron-up"></i>
+      </button>
+    </div>
+    <!--Footer-->
+    <footer class="pending">
+      <div class="container-fluid">
+        <div class="container">
+          <p class="dark">
+            Copyright © 2036 Tale SEO Agency. All rights reserved.
+          </p>
+          <a
+            class="link"
+            href="https://www.linkedin.com/in/muhammad96osama/"
+            target="_blank"
+          >
+            Developed by Muhammad Osama</a
+          >
+        </div>
+      </div>
+    </footer>
+    <!--Script sources-->
+    <script src="./lib/jquery/dist/jquery.min.js"></script>
+    <script src="./lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/waypoints/lib/noframework.waypoints.min.js"></script>
+    <script src="./lib/wowjs/dist/wow.min.js"></script>
+    <script src="./lib/slick-carousel/slick/slick.min.js"></script>
+    <!--Main script source-->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

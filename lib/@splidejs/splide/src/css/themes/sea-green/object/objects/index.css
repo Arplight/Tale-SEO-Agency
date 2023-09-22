@@ -1,0 +1,10 @@
+.splide__slider > .splide__arrows .splide__arrow--prev {
+  left: -2.5em;
+}
+.splide__slider > .splide__arrows .splide__arrow--next {
+  right: -2.5em;
+}
+
+.splide {
+  padding: 3em;
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,141 @@
+.splide__arrow {
+  background: #ccc;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  opacity: 0.7;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  height: 2em;
+  width: 2em;
+}
+.splide__arrow svg {
+  fill: #000;
+  height: 1.2em;
+  width: 1.2em;
+}
+.splide__arrow:hover:not(:disabled) {
+  opacity: 0.9;
+}
+.splide__arrow:disabled {
+  opacity: 0.3;
+}
+.splide__arrow:focus-visible {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}
+.splide__arrow--prev {
+  left: 1em;
+}
+.splide__arrow--prev svg {
+  transform: scaleX(-1);
+}
+.splide__arrow--next {
+  right: 1em;
+}
+.splide.is-focus-in .splide__arrow:focus {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}
+
+.splide__pagination {
+  bottom: 0.5em;
+  left: 0;
+  padding: 0 1em;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.splide__pagination__page {
+  background: #ccc;
+  border: 0;
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  margin: 3px;
+  padding: 0;
+  position: relative;
+  transition: transform 0.2s linear;
+  width: 8px;
+  opacity: 0.7;
+}
+.splide__pagination__page.is-active {
+  background: #fff;
+  z-index: 1;
+  transform: scale(1.4);
+}
+.splide__pagination__page:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.splide__pagination__page:focus-visible {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}
+.splide.is-focus-in .splide__pagination__page:focus {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}
+
+.splide__progress__bar {
+  background: #ccc;
+  height: 3px;
+}
+
+.splide__slide {
+  -webkit-tap-highlight-color: transparent;
+}
+.splide__slide:focus {
+  outline: 0;
+}
+.splide__slide:focus-visible {
+  /* IE does not support outline-offset */
+}
+@supports (outline-offset: -3px) {
+  .splide__slide:focus-visible {
+    outline: #0bf 3px solid;
+    outline-offset: -3px;
+  }
+}
+@media screen and (-ms-high-contrast: none) {
+  .splide__slide:focus-visible {
+    border: #0bf 3px solid;
+  }
+}
+.splide.is-focus-in .splide__slide:focus {
+  /* IE does not support outline-offset */
+}
+@supports (outline-offset: -3px) {
+  .splide.is-focus-in .splide__slide:focus {
+    outline: #0bf 3px solid;
+    outline-offset: -3px;
+  }
+}
+@media screen and (-ms-high-contrast: none) {
+  .splide.is-focus-in .splide__slide:focus {
+    border: #0bf 3px solid;
+  }
+}
+@media screen and (-ms-high-contrast: none) {
+  .splide.is-focus-in .splide__track > .splide__list > .splide__slide:focus {
+    border-color: #0bf;
+  }
+}
+
+.splide__toggle {
+  cursor: pointer;
+}
+.splide__toggle:focus-visible {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}
+.splide.is-focus-in .splide__toggle:focus {
+  outline: #0bf 3px solid;
+  outline-offset: 3px;
+}/*# sourceMappingURL=index.css.map */
