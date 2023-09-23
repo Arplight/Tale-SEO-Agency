@@ -1,7 +1,0 @@
-.splide__track--nav > .splide__list > .splide__slide {
-  border: 3px solid transparent;
-  cursor: pointer;
-}
-.splide__track--nav > .splide__list > .splide__slide.is-active {
-  border: 3px solid #000;
-}/*# sourceMappingURL=nav.css.map */

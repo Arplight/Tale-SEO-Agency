@@ -1,7 +1,0 @@
-.splide {
-  position: relative;
-  visibility: hidden;
-}
-.splide.is-initialized, .splide.is-rendered {
-  visibility: visible;
-}/*# sourceMappingURL=root.css.map */

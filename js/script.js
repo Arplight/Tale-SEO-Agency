@@ -110,61 +110,62 @@ function typer(id) {
 }
 
 // Slick carousel
-$("#projects-slider").slick({
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  speed: 1000,
-  pauseOnHover: true,
-  draggable: true,
-  touchMove: true,
-  arrows: false,
-  dots: false,
-  responsive: [
-    {
-      breakpoint: 992,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
+function slickCarousel() {
+  $("#projects-slider").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    speed: 800,
+    pauseOnHover: true,
+    draggable: true,
+    touchMove: true,
+    arrows: false,
+    dots: false,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
       },
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
       },
-    },
-    {
-      breakpoint: 576,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          pauseOnHover: false,
+        },
       },
-    },
-  ],
-});
+    ],
+  });
+}
 
 // Function calling
 function funcCall() {
   const currentPage = document.body.getAttribute("data-page");
   // Current page check
   if (currentPage === "index") {
-    setInterval(() => {
-      var waypoint = new Waypoint({
-        element: document.querySelector(".progs"),
-        handler: function () {
-          progress("prog-1", "label-1", 10);
-          progress("prog-2", "label-2", 20);
-          progress("prog-3", "label-3", 5);
-        },
-        offset: "bottom-in-view",
-      });
-    }, 5000);
-
     toSection();
     activeSection();
+    slickCarousel();
+    var waypoint = new Waypoint({
+      element: document.querySelector(".progs"),
+      handler: function () {
+        progress("prog-1", "label-1", 10);
+        progress("prog-2", "label-2", 20);
+        progress("prog-3", "label-3", 5);
+      },
+      offset: "bottom-in-view",
+    });
   } else if (currentPage === "about") {
     var waypoint = new Waypoint({
       element: document.querySelector(".progs"),
