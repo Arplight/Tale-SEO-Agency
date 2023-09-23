@@ -566,7 +566,7 @@ progress::-moz-progress-bar {
 }
 
 h1#test {
-  animation-duration: 4s;
+  animation-duration: 5s;
   animation-name: fade;
 }
 
@@ -1076,14 +1076,7 @@ h1#test {
   display: block;
   animation: start 2s;
 }
-@keyframes start {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
 .backGround {
   background: linear-gradient(to right, #5b03e4, #c03afe);
   height: 100vh;
@@ -1153,11 +1146,17 @@ h1#test {
 @keyframes fade {
   from {
     opacity: 0;
-    transform: translateX(100px);
   }
   to {
     opacity: 1;
-    transform: translateX(0px);
+  }
+}
+@keyframes start {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 /*Template responsive design*/

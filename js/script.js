@@ -6,7 +6,7 @@ function progress(progId, labelId, percentage) {
   let countDown = setInterval(() => {
     prog.value < target - percentage ? prog.value++ : clearInterval(countDown);
     label.innerText = `${prog.value}%`;
-  }, 10);
+  }, 15);
 }
 
 //Back to top button
